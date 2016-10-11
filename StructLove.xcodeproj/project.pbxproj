@@ -15,13 +15,17 @@
 		5BB0BD511D4FC02E0054120F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB0BD4F1D4FC02E0054120F /* LaunchScreen.storyboard */; };
 		5BB0BD681D4FC4300054120F /* Tiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB0BD671D4FC4300054120F /* Tiger.swift */; };
 		5BB0BD6B1D4FC4DC0054120F /* TigerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB0BD6A1D4FC4DC0054120F /* TigerTest.swift */; };
+		83F780001DAC87A1008D86FF /* Tiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB0BD671D4FC4300054120F /* Tiger.swift */; };
+		83F780011DAC8DB6008D86FF /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73779871D66A93000EAEC1E /* Coordinate.swift */; };
+		83F780021DAC8DBA008D86FF /* CoordinateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73779891D66AB4200EAEC1E /* CoordinateTest.swift */; };
+		83F780041DAC9218008D86FF /* PizzaDeliveryServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7874C741D66B6D500D9671A /* PizzaDeliveryServiceTest.swift */; };
+		83F780051DAC935E008D86FF /* PizzaDeliveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7874C721D66B68F00D9671A /* PizzaDeliveryService.swift */; };
+		83F780061DAC9460008D86FF /* PersonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7874C781D66BD5D00D9671A /* PersonTest.swift */; };
+		83F780071DAC959E008D86FF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7874C761D66BC8100D9671A /* Person.swift */; };
 		A2633FF2488D93443A235173 /* Pods_StructLoveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C18EFF07EEDF944E8D144540 /* Pods_StructLoveTests.framework */; };
 		B73779881D66A93000EAEC1E /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73779871D66A93000EAEC1E /* Coordinate.swift */; };
-		B737798A1D66AB4200EAEC1E /* CoordinateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73779891D66AB4200EAEC1E /* CoordinateTest.swift */; };
 		B7874C731D66B68F00D9671A /* PizzaDeliveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7874C721D66B68F00D9671A /* PizzaDeliveryService.swift */; };
-		B7874C751D66B6D500D9671A /* PizzaDeliveryServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7874C741D66B6D500D9671A /* PizzaDeliveryServiceTest.swift */; };
 		B7874C771D66BC8100D9671A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7874C761D66BC8100D9671A /* Person.swift */; };
-		B7874C791D66BD5D00D9671A /* PersonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7874C781D66BD5D00D9671A /* PersonTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -381,9 +385,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BB0BD6B1D4FC4DC0054120F /* TigerTest.swift in Sources */,
-				B737798A1D66AB4200EAEC1E /* CoordinateTest.swift in Sources */,
-				B7874C791D66BD5D00D9671A /* PersonTest.swift in Sources */,
-				B7874C751D66B6D500D9671A /* PizzaDeliveryServiceTest.swift in Sources */,
+				83F780051DAC935E008D86FF /* PizzaDeliveryService.swift in Sources */,
+				83F780041DAC9218008D86FF /* PizzaDeliveryServiceTest.swift in Sources */,
+				83F780001DAC87A1008D86FF /* Tiger.swift in Sources */,
+				83F780061DAC9460008D86FF /* PersonTest.swift in Sources */,
+				83F780011DAC8DB6008D86FF /* Coordinate.swift in Sources */,
+				83F780071DAC959E008D86FF /* Person.swift in Sources */,
+				83F780021DAC8DBA008D86FF /* CoordinateTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
